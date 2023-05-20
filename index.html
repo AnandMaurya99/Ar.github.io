@@ -13,14 +13,16 @@
     <a-scene embedded arjs>
       <a-marker preset="hiro">
         <a-box color="blue" material="opacity:0.5" scale="0.5 0.5 0.5"
-        animation__putar = "property:roatation; from: 0 0 0; to: 0 360 0 ; startEvents: mouseenter;"
+        animation__putar = "property:roatation; from: 0 0 0; to: 0 360 0 ;"
         ></a-box>
       </a-marker>
 
-      <!-- <a-marker preset="kanji">
-        <a-entity gltf-model="tree.gltf" scale="6 6 6" crossOrigin="anonymous" ></a-entity>
-      </a-marker> -->
-
+      <a-marker preset="kanji">
+        <a-box color="red" material="opacity:0.5" scale="0.5 0.5 0.5"
+        animation__putar = "property:roatation; from: 0 0 0; to: 0 360 0 ;"
+        ></a-box>
+      </a-marker>
+      
       <a-entity camera>
       </a-entity>
     </a-scene>
